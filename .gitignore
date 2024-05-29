@@ -1,9 +1,0 @@
-.venv
-.idea
-/db.sqlite3
-.vscode/
-/lesson_47.db
-uploads/Модуль UML.pdf
-users/images/
-media/
-.env
