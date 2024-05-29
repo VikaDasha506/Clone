@@ -1,0 +1,27 @@
+/* Добавим всем h1 красный фон   */
+h1 {
+    background-color: rgb(204, 227, 255);
+    text-align: center;
+    height: 80px !important;
+}
+body{
+    background-color: AliceBlue;
+    text-align: center;
+}
+header{
+    background-color: AliceBlue;
+}
+html {
+  height: 100%;
+}
+ul {
+  list-style: none;
+  text-align: center;
+  display: grid;
+  grid-template: repeat(1, 1fr)/repeat(3, 1fr);
+
+}
+li{
+  width: 400px;
+  margin: 20px;
+}
