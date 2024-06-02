@@ -1,7 +1,8 @@
 Склонированный проект "Карточки интервального повторения"
+Установка и запуск проекта
 
 1. Клонировать проект командой:
-   git clone https://github.com/VikaDasha506/Cards_clone
+   git clone https://github.com/VikaDasha506/Clone
 2. Создайте виртуальное окружение внутри папки проекта:
    python -m venv venv
 3. Активируйте виртуальное окружение:
@@ -22,6 +23,8 @@
    EMAIL_HOST=ВВЕДИТЕ_ХОСТ_ПОЧТЫ
    EMAIL_PORT=ВВЕДИТЕ_ПОРТ_ПОЧТЫ
    EMAIL_HOST_USER=ВВЕДИТЕ_ВАШ_ЕМЕЙЛ
+   TELEGRAM_BOT_TOKEN=ВАШ_ТОКЕН_БОТА
+   YOUR_PERSONAL_CHAT_ID=ВАШ_ЧАТ_АЙДИ
 8. Запустите встроенный сервер разработки командой:
    python manage.py runserver
 9. Откройте веб-браузер и перейдите по адресу:

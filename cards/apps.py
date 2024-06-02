@@ -6,3 +6,6 @@ class CardsConfig(AppConfig):
     name = 'cards'
     verbose_name = 'Карточка'  # имя модели в единственном числе.То что видно на сайте в админке
     verbose_name_plural = 'Карточки'  # имя модели в множественном числе.То что видно на сайте в админке
+
+    def ready(self):
+        import cards.signals
